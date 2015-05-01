@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: icook
+# Cookbook Name:: eunerd
 # Recipe:: capistrano
 #
-# Copyright 2012, Richard Lee
+# Copyright 2014, João Netto
 #
 # All rights reserved - Do Not Redistribute
 #

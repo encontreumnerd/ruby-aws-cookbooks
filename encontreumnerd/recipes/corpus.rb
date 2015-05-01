@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: icook
+# Cookbook Name:: encontreumnerd
 # Recipe:: corpus
 #
-# Copyright 2012, Richard Lee
+# Copyright 2014, João Netto
 #
 # All rights reserved - Do Not Redistribute
 #
@@ -28,4 +28,3 @@ node[:elasticsearch][:corpus].each do |type, url|
     not_if { ::File.exists?(extract_path) }
   end
 end
-

@@ -1,6 +1,6 @@
 ## Description
 
-This cookbook is used to setup iCook app properly.
+This cookbook is used to setup Encontre um Nerd app properly.
 
 ## Attributes
 
