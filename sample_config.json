@@ -1,0 +1,33 @@
+{
+  "application": "eunerdapp",
+  "deploy": {
+    "deploy_to": "/srv/www/eunerdapp",
+    "group": "",
+    "user": "",
+    "env": ""
+  },
+  "elasticsearch": {
+    "user": "",
+    "path": {
+      "conf": ""
+    }
+  },
+  "redis": "redis://localhost",
+  "nginx": {
+    "pid_file": ""
+  },
+  "sidekiq": {
+    "worker_count": 2
+  },
+  "unicorn": {
+    "worker_processes": 6,
+    "backlog": "",
+    "tcp_nodelay": "",
+    "tcp_nopush": "",
+    "tries": "",
+    "delay": "",
+    "preload_app": "",
+    "accept_filter": "",
+    "timeout": "",
+  }
+}
